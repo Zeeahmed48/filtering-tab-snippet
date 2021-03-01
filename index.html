@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> All</button>
+        <button class="btn" onclick="filterSelection('burgers')"> Burgers</button>
+        <button class="btn" onclick="filterSelection('pizza')"> Pizza</button>
+        <button class="btn" onclick="filterSelection('pasta')"> Pasta</button>
+        <button class="btn" onclick="filterSelection('beverage')"> Beverage</button>
+      </div>
+      
+      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+      <div class="container">
+        <div class="filterDiv pizza">pizza hut</div>
+        <div class="filterDiv pizza burgers">mcdonalds</div>
+        <div class="filterDiv burgers">burger king</div>
+        <div class="filterDiv pasta beverage">cafe</div>
+        <div class="filterDiv burgers">burger king</div>
+        <div class="filterDiv "></div>
+      </div>
+
+
+
+
+
+
+
+      <script src="app.js"></script>
+</body>
+</html>
